@@ -3,14 +3,6 @@ body {
   font-family: sans-serif;
 }
 
-.nav-link {
-  color: white;
-}
-
-.nav-item active {
-  color: white;
-}
-
 .navigation-wrap {
   width: 100%;
   background-color: #21d192;
@@ -57,7 +49,7 @@ h2 {
 
 #buttonimage {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   background-color: #21d192;
   border: #21d192;
@@ -66,5 +58,20 @@ h2 {
 #buttonimage a {
   text-decoration: none;
   color: white;
+}
+
+#copy {
+  font-size: 80%;
+}
+
+#facebook {
+  color: lightblue;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=style.css.map */
