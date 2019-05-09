@@ -1,5 +1,14 @@
 body {
   background-color: #E8E8E8;
+  font-family: sans-serif;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-item active {
+  color: white;
 }
 
 .navigation-wrap {
@@ -30,10 +39,32 @@ body {
 h2 {
   color: white;
   background-color: #21d192;
-  padding: 15px 0 15px 0;
+  padding: 20px 0 20px 0;
+}
+
+.fb-ic {
+  padding-left: 30px;
+  font-size: 50px;
 }
 
 .bg-groen {
   background-color: #21d192;
+}
+
+#carouselExampleIndicators {
+  position: relative;
+}
+
+#buttonimage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #21d192;
+  border: #21d192;
+}
+
+#buttonimage a {
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
