@@ -51,7 +51,6 @@ h2 {
   position: absolute;
   top: 55%;
   left: 50%;
-  background-color: #21d192;
 }
 
 #copy {
@@ -64,8 +63,29 @@ h2 {
 
 .card-img-top {
   width: 100%;
-  height: 20vw;
+  height: 35vw;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#wrapper {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid black;
+}
+
+#buttonimage {
+  position: absolute;
+  left: -50%;
+  background: blue;
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: #21d192;
+}
+
+#wrapper:hover #buttonimage {
+  -webkit-transition: 2s;
+  transition: 2s;
+  left: 50%;
 }
 /*# sourceMappingURL=style.css.map */
