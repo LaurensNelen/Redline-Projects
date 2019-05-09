@@ -47,12 +47,6 @@ h2 {
   position: relative;
 }
 
-#buttonimage {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-}
-
 #copy {
   font-size: 80%;
 }
@@ -68,18 +62,13 @@ h2 {
      object-fit: cover;
 }
 
-#wrapper {
-  position: relative;
-  overflow: hidden;
-  border: 1px solid black;
-}
-
 #buttonimage {
   position: absolute;
   left: -50%;
-  background: blue;
   -webkit-transition: 1s;
   transition: 1s;
+  position: absolute;
+  top: 55%;
   background-color: #21d192;
 }
 
